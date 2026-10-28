@@ -39,8 +39,8 @@ if(AI_ENDPOINT){$('aiBadge').textContent='API 주소 설정됨 · 연결 미검�
 aiWelcome();
 
 // 공개 키만 입력하세요. service_role / secret 키 사용 금지.
-const SUPABASE_URL = 'YOUR_SUPABASE_URL';
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
+const SUPABASE_URL = 'https://kqfvhseysxnhaywmzloq.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_FP5Edu9nVXLFc-Ms84IdTg_noJZSbhl';
 const configured=SUPABASE_URL.startsWith('https://')&&!SUPABASE_URL.includes('YOUR_')&&SUPABASE_ANON_KEY.length>20&&!SUPABASE_ANON_KEY.includes('YOUR_');
 let db=null,posts=[],board='all',currentPost=null;
 
